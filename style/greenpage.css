@@ -1,0 +1,165 @@
+body
+{
+	margin:0px;
+	padding:0px;
+	padding-bottom:20px;
+	background:#252525 url('../image/page_background.png') 0px 0px repeat-x;		
+}
+body,input,textarea,a
+{
+	color:#9F9F9F;
+	font:13px Arial;
+}
+a img
+{
+	border:none;
+}	
+a
+{	
+	text-decoration:none !important;
+}
+img.c1 {width:210px;height:86px}
+a:hover
+{
+	text-decoration:underline;
+	color:#33CCFF;
+}
+div.menu_poziome
+{
+	margin:auto;
+	margin-left:18%;
+	width:1000px;
+	height:50px;
+	text-align:center;
+	padding-top:auto;
+	overflow-x:hidden;
+}
+div.glowna
+{
+	width: 1024px;
+	height: 950px;
+	margin: auto;
+}
+div.heder
+{
+	width: 1024px;
+	height: 160px;
+	background:url('../image/header_light.png') 0px 0px no-repeat;
+}
+
+div.logo
+{
+	width: 320px;
+	height: 159px;
+	margin-top: auto;
+	margin-left: 40px;
+}
+div.kontaktowe
+{	
+	width: 654px;
+	height: 128px;
+	float: right;
+	clear: both;
+	padding-top:30px;
+	text-align: center;
+}
+div.menu
+{
+	width: 1024px;
+	height: 520px;
+	padding-top:auto;
+	padding-left:auto;
+	clear: both;
+}
+div.nremail
+{
+	text-align: center;
+	margin-left:210px;
+	width:380px;
+}
+div.stopka
+{
+	background:url('../image/header_light.png') 50% 0px no-repeat;
+	width: 1024px;
+	height: 185px;
+	text-align: center;
+	padding-top: 3%;
+}
+div.elementscolor
+{
+	margin:auto;
+	margin-top:auto;
+}
+div.greenblock
+{
+	width: 200px;
+	height: 450px;
+	margin-top: auto;
+	margin-left:70px;
+}
+div.wiadomosc
+{
+      	width: 722px;
+	height: 468px;
+	margin-top: -500px;
+	margin-left:300px;
+	padding-top:50px;
+}
+ul, ul li {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	float: left;
+	padding: 1px 0 1px 1px;
+}
+
+ul li {
+	float: left;
+}
+
+ul a:link, ul a:visited {
+	text-decoration: none;
+	display: block;
+	font-weight: bold;
+	padding: 16px 20px;
+}
+ul a:hover {
+	background-color: #00E600;
+	opacity:0.8;
+	color: white;
+}
+.thumbnail{
+	position: relative;
+	z-index: 0;
+}
+
+.thumbnail:hover{
+	background-color: transparent;
+	z-index: 50;
+}
+
+.thumbnail span{ /*CSS for enlarged image*/
+	position: absolute;
+	padding: 5px;
+	left: -1000px;
+	visibility: hidden;
+	color: black;
+	text-decoration: none;
+}
+
+.thumbnail span img{ /*CSS for enlarged image*/
+	border-width: 0;
+	padding: 2px;
+	width:350px;
+	height:260px;
+}
+
+.thumbnail:hover span{ /*CSS for enlarged image on hover*/
+	visibility: visible;
+	top: -5px;
+	left: 15px; /*position where enlarged image should offset horizontally */
+}

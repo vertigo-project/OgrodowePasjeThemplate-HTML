@@ -1,0 +1,45 @@
+p{
+	margin:0 0 .2em 0;
+	line-height:28em;
+}		
+/* other scheme! */
+#other{
+	font-size:.8em;
+	width:82em;
+	float:left;
+}
+div#other.domtab div{
+	clear:both;
+	width:62em;
+	background:#EAB000;
+	color:#fff;
+	padding:1em 3em;
+	font-size:10px;
+}
+		
+#other ul.domtabs a:hover{
+	background:#EDEDED;
+	color:#000000;
+}
+div#other ul.domtabs li.active a:link,
+div#other ul.domtabs li.active a:visited,
+div#other ul.domtabs li.active a:active,
+div#other ul.domtabs li.active a:hover{
+	background:#00E600;
+	color:#fff;
+}
+#other div{
+	float:left;
+}
+ul.prevnext{
+	float:left;
+	width:100%;
+}
+ul.prevnext li{
+	float:left;
+	width:50%;
+}
+ul.prevnext li.next{
+	float:right;
+	text-align:right;
+}
